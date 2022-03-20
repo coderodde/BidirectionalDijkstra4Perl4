@@ -1,0 +1,4 @@
+/home/rodde/Software/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/rodde/Software/clion/bin/ninja/linux/ninja -G Ninja /home/rodde/Projects/untitled
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rodde/Projects/untitled/cmake-build-debug
