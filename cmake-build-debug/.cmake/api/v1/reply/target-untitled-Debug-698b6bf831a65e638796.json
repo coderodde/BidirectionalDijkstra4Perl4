@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled"
+			"path" : "untitled.exe"
+		},
+		{
+			"path" : "untitled.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : " -Wall -ansi -pedantic -fmax-errors=1 -O3 -g"
 				},
 				{
 					"fragment" : "-std=gnu90"
@@ -71,18 +74,22 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-Wall -ansi -pedantic -fmax-errors=1 -O3 -g",
 				"role" : "flags"
 			},
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "untitled",
-	"nameOnDisk" : "untitled",
+	"nameOnDisk" : "untitled.exe",
 	"paths" : 
 	{
 		"build" : ".",
